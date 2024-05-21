@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HAngry101PhotoApp</title>
+  </head>
+  <body>
+    <!-- Page heading -->
+    <h2>HAngry101_PhotoApp</h2>
+    <main>
+      <!-- Main section heading -->
+      <h3>HAngry101 Photos</h3>
+      <!-- link to GitHub HAngry101 -->
+      <p>Click here to learn more about <a href="https://github.com/HAngry101" target="_blank">HAngry101 </a>.</p>
+      <!-- Heading for the list -->
+      <h3>HAngry101Lists</h3>
+      <div class="lists">
+        <!-- Question to the user -->
+        <p> What do you like about <em> HAngry101</em>:</p>
+        <!-- Unordered list of preferences -->
+        <ul>
+          <li>sweets</li>
+          <li>soda especially Coca Cola</li>
+          <li>steak</li>
+        </ul>
+        <!-- Image of HAngry101 -->
+        <img src="Hangry101-2.jpg" alt="HAngry101">
+        <!-- Question to the user -->
+        <p>What HAngry101  <strong>doesn't like</strong>:</p>
+        <!-- Ordered list of dislikes -->
+        <ol>
+          <li>milk</li>
+          <li>to be without sweets</li>
+          <li>just drink water all day long</li>
+        </ol>
+      </div>
+      <!-- Form for submitting data -->
+      <form action="/submit-cat-photo">
+        <!-- Radio buttons for selecting between two options -->
+        <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> Eating</label><br>
+        <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Works</label><br>
+
+        <!-- Checkboxes for selecting multiple options -->
+        <label for="loving"><input id="loving" type="checkbox" name="personality" checked> Have fun</label><br>
+        <label for="lazy"><input id="lazy" type="checkbox" name="personality"> Lazy</label><br>
+        <label for="energetic"><input id="energetic" type="checkbox" name="personality"> Energetic</label><br>
+
+        <!-- Text field for entering the photo URL -->
+        <input type="text" placeholder="HAngry101 photo URL" required><br>
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+      </form>
+      <!-- Another image of HAngry101 -->
+      <img src="Hangry101-1.jpg" alt="HAngry101">
+    </main>
+    <!-- Page footer -->
+    <footer>
+      <p><small>We used the course project from <a href="https://freecodecamp.org">freeCodeCamp.org</a></small></p>
+    </footer>
+  </body>
+</html>
+
+
+<!-- 
+Comments on the code:
+DOCTYPE: Specifies the type of HTML document.
+html lang="en": Indicates that the language of the page is English.
+head: Contains metadata and the title of the page.
+title: Sets the title of the page, displayed in the browser tab.
+body: The main content of the page.
+h2, h3: Headers of different levels.
+p: Paragraphs of text.
+a href: Link to an external resource (HAngry101's GitHub) with the attribute target="_blank" to open in a new tab.
+em, strong: Text styling (italic and bold).
+ul, ol: Lists (unordered and ordered).
+li: List items.
+img: Embeds images with the src attribute (path to the image) and alt attribute (alternative text).
+form: Form for submitting data.
+label: Labels for form elements.
+input: Input fields (radio buttons, checkboxes, text field).
+button: Form submit button.
+footer: Footer with a link to freeCodeCamp. -->
