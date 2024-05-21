@@ -1,8 +1,9 @@
 # HAngry101PhotoApp 📸
+![image](https://github.com/HAngry101/freeCodeCamp_Frontend_Project_01_HAngry101PhotoApp/assets/168013853/662c409a-2e92-4b2a-b495-6befdb192a5a)
 
 
 ## Demo
-
+https://hangry101.github.io/freeCodeCamp_Frontend_Project_01_HAngry101PhotoApp/
 
 
 ## Overview
